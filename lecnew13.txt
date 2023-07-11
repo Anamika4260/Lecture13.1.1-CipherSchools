@@ -1,0 +1,26 @@
+In terms of computer graphics, Scaling is a process used for altering the size of objects. It changes the coordinate point of the original object. Modifying the object’s size with the help of the object’s dimension is dependent on the scaling factor(S). 
+
+The scaling factor determines whether the object size is increased or decreased. There are two scaling factors i.e., Sx, in the x-direction, and Sy, in the y-direction. 
+
+If scaling factor( Sx/Sy) > 1 => size of the object will be enlarged.
+
+If scaling factor( Sx/Sy) < 1 => size of the object will be reduced.
+
+
+If Sx and Sy are equal then we call it uniform scaling. If both of them are not equal to each other then we can term it as non-uniform scaling or differential scaling or independent scaling. In the non-uniform scaling case, they have the effect of distorting pictures by elongating or shrinking them along the directions parallel to the coordinate axes. 
+
+Formula for the Scaling: 
+Let us have object O on which we will perform the scaling.
+
+initial coordinates of the object O =  (x , y).
+
+scaling factor in x-direction = Sx  
+
+scaling factor in y-direction = Sy
+
+new coordinates after scaling = (x1, y1)
+
+hence we have equations for scaling :
+
+x1 = Sx * x  
+y1 = Sy * y
